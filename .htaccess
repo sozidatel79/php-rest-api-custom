@@ -2,7 +2,7 @@ DirectoryIndex public/index.php
 
 RewriteEngine on
 
-RewriteBase /
+RewriteBase /public
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
